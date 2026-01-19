@@ -1,3 +1,7 @@
+
+![WhatsApp Image 2026-01-19 at 11 10 26 AM](https://github.com/user-attachments/assets/8cdf4b56-939f-4c7e-bd43-aae166a88bae)
+
+
 # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
