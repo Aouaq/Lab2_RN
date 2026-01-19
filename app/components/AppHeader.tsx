@@ -1,33 +1,24 @@
-import { StyleSheet, Text, View } from 'react-native'
-import React from 'react'
+import * as React from 'react';
+import { View, Text, StyleSheet } from 'react-native';
 
-const AppHeader = () => {
+export default function AppHeader() {
   return (
-    <View style={styles.container}>
-      <Text style={styles.title}>Mon Application React Native</Text>
-      <Text style={styles.subtitle}>Premier composant réutilisable</Text>
+    <View style={styles.header}>
+      <Text style={styles.headerTitle}>My First React Native App</Text>
     </View>
-  )
+  );
 }
 
-export default AppHeader
-
 const styles = StyleSheet.create({
-  container: {
-    backgroundColor: '#F4CE14',
-    paddingVertical: 20,
-    paddingHorizontal: 16,
+  header: {
+    paddingVertical: 16,
+    paddingHorizontal: 20,
+    backgroundColor: '#3E4A59'
   },
-  title: {
-    fontSize: 22,
+  headerTitle: {
+    fontSize: 20,
     fontWeight: 'bold',
-    color: 'black',
+    color: '#FFFFFF',
     textAlign: 'center',
-  },
-  subtitle: {
-    fontSize: 14,
-    color: 'black',
-    textAlign: 'center',
-    marginTop: 4,
-  },
+  }
 });

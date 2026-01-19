@@ -1,15 +1,14 @@
 import { StyleSheet, Text, View } from "react-native";
 import AppHeader from "./components/AppHeader";
 import AppFooter from "./components/AppFooter";
+import AboutScreen from "./AboutScreen";
 
 export default function Index() {
   return (
     <View style={styles.container}>
       <AppHeader />
       <View style={styles.content}>
-        <Text style={styles.text}>
-          Contenu principal de l’application
-        </Text>
+        <AboutScreen />
       </View>
       <AppFooter/>
     </View>
